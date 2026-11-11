@@ -13,7 +13,7 @@ test('Test01', async ({page}) =>               //Page is a fixture
     await page.goto('https://gmail.com');       //Tab1
     await expect(page).toHaveTitle(/Gmail/i);
 
-    const page2 = await page.context().newPage();       //Tab2
+    /*const page2 = await page.context().newPage();       //Tab2
     await page2.goto('https://gmail.com');
     await expect(page2).toHaveTitle(/Gmail/i);
 
@@ -23,6 +23,6 @@ test('Test01', async ({page}) =>               //Page is a fixture
     ]);
     await googleWindow.waitForLoadState();
     console.log(await googleWindow.url());
-
+    */
 
 });

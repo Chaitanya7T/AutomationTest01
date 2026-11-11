@@ -4,12 +4,12 @@ const LoginPage = require('../pageobjects/LoginPage');       //Importing LoginPa
 
 test('Test01', async ({page}) =>               //Page is a fixture
 {
-    const username = 'um';
+    /*const username = 'um';
     const password = 'pwd';
     const loginPage = new LoginPage(page);       //Object of LoginPage class
     await loginPage.navigatetologinpage();
     await loginPage.Validlogin(username, password);
-
+    */
     await page.goto('https://gmail.com');       //Tab1
     await expect(page).toHaveTitle(/Gmail/i);
 

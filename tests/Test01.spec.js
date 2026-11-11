@@ -4,6 +4,7 @@ const LoginPage = require('../pageobjects/LoginPage');       //Importing LoginPa
 
 test('Test01', async ({page}) =>               //Page is a fixture
 {
+    
     /*const username = 'um';
     const password = 'pwd';
     const loginPage = new LoginPage(page);       //Object of LoginPage class

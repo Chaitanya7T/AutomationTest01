@@ -25,5 +25,4 @@ test('Test01', async ({page}) =>               //Page is a fixture
     console.log(await googleWindow.url());
 
 
-
 });

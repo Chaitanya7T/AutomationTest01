@@ -1,6 +1,6 @@
 const { test, expect } = require('@playwright/test');
 const LoginPage = require('../pageobjects/LoginPage');       //Importing LoginPage class
-const { getExcelData } = require(' ');
+//const { getExcelData } = require(' ');
 
 test('Test01', async ({page}) =>               //Page is a fixture
 {
